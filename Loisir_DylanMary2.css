@@ -1,0 +1,86 @@
+#bloc_page
+{
+	width: 90%;
+	margin: auto;
+}
+body
+{
+	background-image: url("images/arc-brave1.png"); 
+}
+h1
+{
+	font-family: Verdana;
+	text-shadow: 2px 1px 2px;
+}
+h2, h3
+{
+	font-family: Arial;
+	text-shadow: 1px 0px 2px;
+} 
+ul
+{
+	font-family: georgia;
+}
+h3
+{
+	color: rgba(25,25,25,0.8);
+}
+h2
+{
+	text-align: center;
+}
+/* ------------------------ en tete -------------------*/
+header img
+{
+	width: 35%;
+	height: 225px;
+	border-radius: 7px 7px;
+	box-shadow: 2px 2px 3px;
+}
+/* -------------------- corp ---------------------------*/
+section
+{
+	display: flex;
+	margin-right: 25%;
+	margin-top: 40px;
+}
+aside
+{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(25,25,25,0.7);
+	width: 20%;
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	padding: auto;
+	margin: 10px;
+	align-items: center;
+	border-radius: 7px 7px;
+	box-shadow: 2px 2px 3px;
+}
+aside img
+{
+	width: 150px;
+	height:125px;
+	border-radius: 7px 7px;
+	margin: 5px 1px 5px 1px;
+}
+/* ----------------------- Pied de page ------------------------*/
+.soul
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+footer
+{
+	margin-top: 65px;
+	border-top: 2px black dotted;
+}
+/* ------------------------ lien -------------------- */
+a:hover
+{
+	text-decoration: none;
+	color: black;
+	border-bottom:2px black solid;
+}

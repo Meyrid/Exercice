@@ -1,0 +1,72 @@
+/* --------------------------------- PARAMETRES GENERAUX ---------------------------------*/
+#bloc_page
+{
+	width: 90%;
+	margin: auto;
+}
+body
+{
+	background-image: url("images/arc-brave1.png"); 
+}
+h1
+{
+	font-family: Verdana;
+	text-shadow: 2px 1px 2px;
+}
+h2, h4
+{
+	font-family: Arial;
+	text-shadow: 1px 0px 2px;
+} 
+ul
+{
+	font-family: georgia;
+}
+h4
+{
+	color: rgba(25,25,25,0.8);
+}
+/* ------------------------------------------- en tête ----------------------------------- */
+header
+{
+	display: flex;
+	justify-content: space-between;
+}
+.Nom
+{
+	display: flex;
+	flex-direction: column;
+}
+/* ----------------------------------------- SECTIONS ------------------------------- */
+#contenu
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 75px;
+}
+.exp, .comp, .form
+{
+	width: 30%;
+}
+/* ------------------------------------- Pied de page -------------------------------- */
+footer
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.contact
+{
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* --------------------------------------- lien ------------------------------------- */
+footer a
+{
+	font-size: 1.4em;
+}
+a:hover
+{
+	text-decoration: none;
+	color: black;
+	border-bottom:2px black solid;
+}
