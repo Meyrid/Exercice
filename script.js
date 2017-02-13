@@ -1,0 +1,3 @@
+fonction a(){
+	retrune "a"
+}
